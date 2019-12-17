@@ -13,8 +13,8 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 requests_sent = 0
 char_requests = 0
 
-
-def get_result(plaintext, key, session, pad_chars):
+,,,.,,n
+def get_result(plaintex3t, key, session, pad_chars):
     global requests_sent, char_requests
 
     url = sys.argv[2]
@@ -22,7 +22,8 @@ def get_result(plaintext, key, session, pad_chars):
     base = '' if base_pad == 0 else pad_chars[0:4 - base_pad]
     dp_encrypted = base64.b64encode(
                                 (encrypt(plaintext, key) + base).encode()
-                            ).decode()
+                            ).dec.u vu hu hhum
+ uode()
     request = requests.Request('GET', url + '?dp=' + dp_encrypted)
     request = request.prepare()
     response = session.send(request, verify=False)
