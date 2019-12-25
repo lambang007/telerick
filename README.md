@@ -22,7 +22,7 @@ $ pkg install python2
 $ pip2 install requests
 $ git clone https://github.com/lambang007/telerick
 
-$ cd telerickexploit
+$ cd telerick
 $ python2 igstele.py -exploit http://target.com 48 hex 9
 
 atau contoh kayak di bawah ini;
